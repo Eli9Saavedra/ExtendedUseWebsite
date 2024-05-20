@@ -1,0 +1,38 @@
+/* AdminPage.css */
+
+.addButton, .editButton, .deleteButton {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px #999;
+}
+
+.addButton {
+    background-color: #4CAF50;
+}
+
+    .addButton:hover {
+        background-color: #45A049;
+    }
+
+.editButton {
+    background-color: #2196F3;
+}
+
+    .editButton:hover {
+        background-color: #0B7DDA;
+    }
+
+.deleteButton {
+    background-color: #f44336;
+}
+
+    .deleteButton:hover {
+        background-color: #DA0B0B;
+    }

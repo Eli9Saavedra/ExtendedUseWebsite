@@ -1,0 +1,95 @@
+/* CheckoutPage.css */
+
+.checkout-container {
+    padding: 20px;
+    max-width: 1200px; /* Adjust width as needed */
+    margin: auto;
+    background: #fff; /* Light background for the checkout container */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for a bit of depth */
+}
+
+.checkout-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.checkout-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+    gap: 20px;
+    align-items: start; /* Align the start of items */
+}
+
+.shipping-details,
+.cart-summary,
+.payment-section {
+    background: #f8f8f8; /* Slight grey background for section differentiation */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for the form sections */
+}
+
+    .shipping-details input,
+    .payment-section input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc; /* Standard border */
+        border-radius: 4px; /* Rounded borders for inputs */
+    }
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e1e1e1; /* Subtle line below each item for separation */
+}
+
+.total {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: right; /* Align the total to the right */
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green background for primary buttons */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px; /* Rounded button edges */
+}
+
+    .button:hover {
+        background-color: #45a049; /* Slightly darker on hover */
+    }
+
+/* Styles for the Stripe Card Element specifically */
+.StripeElement {
+    background-color: white;
+    padding: 16px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* Checkout message for empty cart or confirmations */
+.checkout-message {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-top: 50px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .checkout-form {
+        grid-template-columns: 1fr; /* Stack columns on smaller screens */
+    }
+}

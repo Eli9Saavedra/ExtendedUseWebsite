@@ -1,0 +1,27 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+}
+
+    .list-group-item:last-child {
+        border-bottom: none;
+    }
+
+.btn-danger {
+    margin-left: 20px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,47 @@
+/* styles.css */
+body {
+    background-color: #f4f4f9; /* Light gray background to keep things soft */
+    color: #333; /* Dark text for contrast */
+}
+
+.navbar-custom {
+    background-color: #35524a; /* Earth green */
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fefefe !important; /* Light text on dark bg for nav items */
+}
+
+/*.jumbotron {
+    background: url('path_to_your_sustainable_image.jpg') no-repeat center center;
+    background-size: cover;
+}
+    */
+
+.card-custom {
+    background-color: #c1bdba; /* A soft stone color */
+    border: none;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover; /* Keeps the image aspect ratio */
+}
+
+.table-custom {
+    background-color: #f4f4f4; /* Slightly darker than body for contrast */
+}
+
+.form-control {
+    border: 1px solid #ced4da; /* Subtle borders for inputs */
+}
+
+.btn-custom {
+    background-color: #519872; /* A rich leafy green */
+    color: #fff;
+}
+
+    .btn-custom:hover {
+        background-color: #427357; /* Darken on hover */
+    }
